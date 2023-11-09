@@ -6,3 +6,15 @@ document.addEventListener('DOMContentLoaded', function() {
         return false;
     });
 });
+
+$(document).ready(function() {
+    $(".navbar-brand, .nav-link[href='#home']").on('click', function(event) {
+        event.preventDefault();
+        $('html, body').animate({ scrollTop: 0 }, 'slow');
+    });
+
+    $(".nav-link").on('click', function() {
+        $(".nav-item").removeClass("active");
+        $(this).parent(".nav-item").addClass("active");
+    });
+});
