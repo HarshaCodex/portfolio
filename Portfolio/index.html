@@ -9,10 +9,10 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body id="top">
     <header>
 
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
             <a class="navbar-brand" href="#">Harsha Bandla</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -26,7 +26,7 @@
                         <a class="nav-link" href="#">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Experience</a>
+                        <a class="nav-link" href="#experience">Experience</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Skills</a>
@@ -38,6 +38,9 @@
             </div>
         </nav>
     </header>
+
+    <br>
+    <br>
 
     <section id="about" class="py-5 bg-light">
         <div class="container">
@@ -66,6 +69,32 @@
         </div>
     </section>
     
+    <section id="experience" class="py-5">
+        <div class="container">
+            <h2 class="mb-4 text-center">Experience</h2>
+            <div class="row">
+                <div class="col-md-12">
+                    <h4>Software Dev Engineer – Amazon, Denver, CO (June 2022 – March 2023)</h4>
+                    <ul>
+                    <li>Engaged in various phases of the Software Development Life Cycle (SDLC), encompassing requirement analysis, business communication, modeling, analysis, design, development, testing, and deployments.</li>
+                    <li>Embraced Agile methodology, actively participating in daily scrum meetings, providing status updates, and maintaining records in the Application Lifecycle Management (ALM) system.</li>
+                    <li>Worked on monolithic applications, optimizing endpoints, debugging, and resolving critical bugs to enhance performance and reliability.</li>
+                    <li>Designed and implemented multiple microservices using Spring Boot, establishing efficient communication between them via a load balancer.</li>
+                    <li>Conducted SONAR analysis on applications, addressing significant code smells and issues while enhancing test coverage by creating test cases.</li>
+                    <li>Managed build and deployment pipelines, including validation pipelines, to ensure smooth application deployment across various environments.</li>
+                    <li>Contributed to the frontend development by resolving bugs and updating components using ReactJS.</li>
+                    <li>Successfully migrated on-premises databases to AWS DynamoDB and deployments to AWS EC2 instances, optimizing cloud-based infrastructure.</li>
+                    <li>Utilized Slf4j for comprehensive logging to maintain application health.</li>
+                    <li>Developed code to perform frequent health checks in the cloud platform for deployed applications, ensuring stability and performance.</li>
+                    <li>Collaborated with the project team to resolve bugs and defects, consistently achieving positive outcomes.</li>
+                    <li>Applied corrections, modifications, and upgrades to software to improve overall performance.</li>
+                    <li>Provided production support, effectively resolving job failures, and liaised with the operations support group to restore failed jobs.</li>
+                    <li>Leveraged Git as the primary version control system to manage codebase efficiently.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
