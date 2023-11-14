@@ -1,20 +1,18 @@
-document.addEventListener('DOMContentLoaded', function() {
-    var navbarBrand = document.querySelector('.navbar-brand');
-
-    navbarBrand.addEventListener('click', function() {
-        window.scrollTo({top: 0, behavior:"smooth"});
-        return false;
-    });
-});
 
 $(document).ready(function() {
-    $(".navbar-brand, .nav-link[href='#home']").on('click', function(event) {
-        event.preventDefault();
-        $('html, body').animate({ scrollTop: 0 }, 'slow');
-    });
+    $('body').scrollspy({ target: '.navbar', offset: 50 });
 
-    $(".nav-link").on('click', function() {
-        $(".nav-item").removeClass("active");
-        $(this).parent(".nav-item").addClass("active");
+    $(".navbar-nav a").on('click', function(event) {
+        if (this.hash !== "") {
+            event.preventDefault();
+
+            var hash = this.hash;
+
+            $('html, body').animate({
+                scrollTop: $(hash).offset().top
+            }, 800, function(){
+                window.location.hash = hash;
+            });
+        }
     });
 });
