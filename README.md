@@ -1,48 +1,25 @@
-# Harsha Bandla's Portfolio
+# Portfolio
 
-Welcome to my portfolio! This repository contains the source code for my personal portfolio website.
+This portfolio is a personal webpage created using HTML, CSS, and Bootstrap. As a beginner, I've crafted this to showcase my skills and experience. In the future, I plan to update and enhance it further, possibly incorporating JavaScript frameworks like React for added interactivity and a more dynamic user experience.
 
-## Table of Contents
+## Technologies Used
 
-- [About Me](#about-me)
-- [Experience](#experience)
-- [Skills](#skills)
-- [Contact](#contact)
+- HTML
+- CSS
+- Bootstrap
 
-## About Me
+## Future Plans
 
-I'm Harsha Bandla, a Java Developer with over 1+ years of experience in crafting innovative and efficient web applications using JAVA and J2EE technologies.
+1. **JavaScript Frameworks**: Consider incorporating JavaScript frameworks such as React for more dynamic and interactive elements.
+2. **Enhanced Styling**: Continuously improve and refine the styling to create a visually appealing and modern design.
+3. **Feedback and Suggestions**: Open to receiving suggestions and feedback from the community to enhance the overall user experience.
 
-## Experience
+## How to Use
 
-### Software Dev Engineer – Amazon, Denver, CO (June 2022 – March 2023)
+Simply open the `index.html` file in a web browser to view the portfolio.
 
-- Engaged in various phases of the Software Development Life Cycle (SDLC), encompassing...
-- Embraced Agile methodology, actively participating in daily scrum meetings...
-- Worked on monolithic applications, optimizing endpoints, debugging, and resolving...
-- Designed and implemented multiple microservices using Spring Boot...
+## Feedback and Suggestions
 
-### Technical Assistant – UMKC (February 2021 – May 2022)
+If you have any suggestions or improvements, feel free to raise an issue or create a pull request. Your feedback is valuable!
 
-- Regularly updated project status to supervisors for transparency and accountability...
-- Efficiently gathered, organized, and disseminated technical documentation...
-- Provided valuable technical guidance and support to fellow team members...
-- Responsively addressed user queries and service requests...
-
-## Skills
-
-- Programming Languages: Java, HTML, CSS, JavaScript, C.
-- Cloud Technologies: AWS
-- Build Tools: Maven
-- Frameworks: Spring Boot, Hibernate, JPA, Spring MVC, AOP, Spring Batch, Lombok.
-- API and Testing Tools: Postman, Ready API, Junit, Mockito
-- Integrated Development Environments (IDE): IntelliJ, Visual Studio Code
-- Database Management Systems (DBMS): MySQL, Oracle, MongoDB
-- Version Control Systems: Git, GitHub, Bitbucket
-
-## Contact
-
-Feel free to connect with me on social media:
-
-- [GitHub](https://github.com/HarshaCodex)
-- [LinkedIn](https://www.linkedin.com/in/harsha-bnss-73677a170/)
+Happy coding
