@@ -70,10 +70,52 @@ body {
     background-color: #f8f9fa !important;
 }
 
-/* Responsive styles for smaller screens */
 @media (max-width: 767px) {
     #about img {
         max-width: 100%;
         margin-bottom: 20px;
     }
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.card-title {
+    color: #333;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.card-body ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.card-body li {
+    padding: 8px 0;
+    position: relative;
+    margin-left: 20px;
+}
+
+.card-body li:before {
+    content: "\2022"; 
+    color: #007bff; 
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+    position: absolute;
+    left: 0;
+}
+
+h2.mb-4.text-center {
+    color: #007BFF;
+    font-size: 2rem; 
+    font-weight: bold;
+    margin-bottom: 20px;
 }
