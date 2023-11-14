@@ -28,7 +28,7 @@ body {
 }
 
 #about {
-    padding-top: 70px !important; 
+    padding-top: 80px !important; 
     background-color: #f8f9fa !important;
 }
 
@@ -120,4 +120,26 @@ h2.mb-4.text-center {
     font-size: 2rem; 
     font-weight: bold;
     margin-bottom: 20px;
+}
+
+#skills {
+    background-color: #f8f9fa;
+    padding: 60px 0;
+}
+
+#skills h2 {
+    color: #343a40;
+}
+
+#skills ul {
+    font-size: 1.1em;
+}
+
+#skills li {
+    padding: 8px 0;
+}
+
+#skills strong {
+    color: #007bff;
+    font-weight: bold;
 }
